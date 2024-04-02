@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+header{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 100px;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin-right: 130px;
+}
+nav ul li{
+    display: inline;
+    float: right;
+    font-size: 20px;
+    justify-content: flex-end;
+    margin-top: 35px;
+    padding-left: 50px;
+}
+
+#imagemlogo{
+    margin-left: 130px;
+    margin-top: 18px;
+    width: 130px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#anakin{
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+section{
+    display: flex;
+}
+
+#sobremim{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 150px;
+}
+
+#sobremim h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quadrados{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    margin-left: 100px;
+    width: 300px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.quadrados img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.quadrados ul{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quadrados button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 17px;
+}
+
+.quadrados ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quadrados button:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+    cursor: pointer;
+}
+
+#contato{
+    width: 700px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+#contato p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contato input[type = text], [type = email],[type = tel]{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+#contato input[type = submit]{
+    float: right;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+#contato input[type = tel]{
+    padding-bottom: 100px;
+}
+
+
+

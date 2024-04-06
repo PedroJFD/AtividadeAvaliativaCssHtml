@@ -11,25 +11,25 @@
     <header>
         <nav>
             <ul>
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="portifolio.html">Portifolio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <a href="contato.html"><li>Contato</li></a>
+                <a href="portfolio.html"><li>Portfolio</li></a>
+                <a href="inicio.html"><li>Inicio</li></a>
             </ul>
         </nav>
-        <div><img src="IMAGENS/Star_Wars-logo-BF51C9BC8D-seeklogo.com.png" id="imagemlogo"></div>
+        <div><img src="IMAGENS/Star_Wars-logo-BF51C9BC8D-seeklogo.com.png"></div>
     </header>
     <section>
         <div id="contato">
             <h1>Contato</h1>
-        <p>Entre em contato para discutir suas necessidades e ver o que eu, Darth Vader, posso lhe oferecer. <br>
+        <p>Entre em contato para discutir suas necessidades e ver o que eu, Darth Vader, posso lhe oferecer.<br>
             Faço o possível para responder às mensagens dentro de 1 a 2 dias úteis.
         </p>
         <form>
             <label class="label">Nome *</label>
-            <input type="text">
+            <input type="text" required>
             <label class="label">Email *</label>
-            <input type="email">
-            <input type="tel">
+            <input type="email" required>
+            <textarea name="" id="descricao" cols="30" rows="10" required style="resize: none"></textarea>
             <input type="submit" value="Enviar">
         </form>
         </div>

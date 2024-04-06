@@ -2,101 +2,113 @@
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
+
+/*Header*/
 header{
     background-color: rgb(32, 32, 32);
     width: 100%;
     height: 100px;
     
 }
-nav ul{
+header nav ul{
     list-style-type: none;
     margin-right: 130px;
 }
-nav ul li{
+header nav ul li{
     display: inline;
     float: right;
     font-size: 20px;
     justify-content: flex-end;
-    margin-top: 35px;
-    padding-left: 50px;
+    padding: 38px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header nav ul li:hover{
+    background-color: rgba(47, 49, 49, 0.753);
+    cursor: pointer;
 }
 
-#imagemlogo{
+header img{
     margin-left: 130px;
     margin-top: 18px;
     width: 130px;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+/*Section Universal*/
+section{
+    display: flex;
 }
 
-#anakin{
-    margin-top: 100px;
+/*Portfolio*/
+#anakinportfolio{
+    margin-top: 80px;
     margin-left: 150px;
     border-radius: 20px;
     width: 500px;
 }
 
-section{
-    display: flex;
-}
-
-#sobremim{
-    margin-top: 80px;
+#descricoesportfolio{
+    margin-top: 75px;
     margin-left: 70px;
     margin-right: 150px;
 }
 
-#sobremim h1{
+#descricoesportfolio ul{
+    padding-left: 20px;
+}
+
+#descricoesportfolio h1{
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
+/*Inicio-Home*/
 .quadrados{
     background-color: white;
-    border-radius: 20px;
-    box-shadow: 10px 10px;
-    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(59, 59, 59);
+    margin-left: 130px;
     width: 300px;
     margin-top: 100px;
-    border: 1px solid black;
+    border: 1px solid rgb(32, 32, 32);
 }
 
 .quadrados img{
     width: 100px;
-    height: 100px;
-    margin-left: 100px;
-    margin-top: 20px;
+    height: 105px;
+    margin-left: 105px;
+    margin-top: 30px;
 }
 
 .quadrados ul{
     list-style-type: none;
-    padding: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.quadrados button{
-    width: 100%;
-    height: 50px;
-    background-color: rgb(54, 54, 54);
-    color: white;
-    border: none;
-    border-radius: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
 }
 
 .quadrados ul li{
     margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+.quadrados button{
+    margin-left: 48px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 70%;
+    height: 40px;
+    background-color: rgb(58, 13, 12);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
 }
 
 .quadrados button:hover{
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: rgb(20, 4, 4);
     cursor: pointer;
 }
 
+/*Contato*/
 #contato{
     width: 700px;
     margin-left: 600px;
@@ -108,10 +120,10 @@ section{
     margin-bottom: 20px;
 }
 
-#contato input[type = text], [type = email],[type = tel]{
-    width: 100%;
+#contato input[type = text], [type = email], textarea{
+    width: 97%;
     border-radius: 5px;
-    padding-bottom: 20px;
+    padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
     border: 1px solid gray;
 }
@@ -125,9 +137,7 @@ section{
     padding: 10px 20px 10px 20px;
 }
 
-#contato input[type = tel]{
-    padding-bottom: 100px;
+#contato input[type = submit]:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+    cursor: pointer;
 }
-
-
-
